@@ -10,7 +10,7 @@ function buildCss(cb) {
     .pipe(sass())
     .pipe(autoprefixer())
     .pipe(cleanCSS())
-    .pipe(rename('qyuan-vue-ui.css'))
+    .pipe(rename('qyuan-vur-ui.css'))
     .pipe(gulp.dest('../lib/styles'));
   cb()
 }

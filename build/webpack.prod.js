@@ -14,8 +14,8 @@ module.exports = merge(webpackBaseConfig, {
   output: {
     path: path.resolve(__dirname, '../lib'),
     publicPath: '/lib/',
-    filename: 'qyuan-vue-ui.min.js',
-    library: 'qyuan-vue-ui',
+    filename: 'qyuan-vur-ui.min.js',
+    library: 'qyuan-vur-ui',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },

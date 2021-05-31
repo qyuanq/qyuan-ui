@@ -1,11 +1,13 @@
-$namespace: 'lime';
+$namespace: 'qyuan';
 
 /* BEM
  -------------------------- */
 @mixin b($block) {
   $B: $namespace+'-'+$block !global;
 
+  //.qyuan-组件名
   .#{$B} {
+    //混入的内容
     @content;
   }
 }

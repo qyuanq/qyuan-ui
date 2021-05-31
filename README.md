@@ -1,11 +1,6 @@
-<p align="center">
-    <a>
-        <img width="200" src="./assets/logo.png">
-    </a>
-</p>
 
 <h1>
-LimeUI
+qyuanUI
     <h3>A lightweight Vue.js UI toolkit</h3>
 </h1>
 
@@ -14,7 +9,7 @@ LimeUI
 
 Run the command below in your terminal to install qyuanUI first
 ```
-npm install qyuan-ui --save
+npm install qyuan-vur-ui --save
 ```
 
 # Usage
@@ -22,8 +17,8 @@ npm install qyuan-ui --save
 ## Global Use
 Import in your entry script file and register it
 ```javascript
-import qyuanUI from 'qyuan-ui'
-import "qyuan-ui/lib/styles/qyuan-ui.css"
+import qyuanUI from 'qyuan-vur-ui'
+import "qyuan-vur-ui/lib/styles/qyuan-vur-ui.css"
 
 Vue.use(qyuanUI)
 ```
@@ -47,7 +42,7 @@ Configure your `.babelrc` file like this
 {
     "plugins": [
         ["component", {
-            "libraryName": "qyuan-ui",
+            "libraryName": "qyuan-vur-ui",
             "libDir": "lib",
             "styleLibrary": {
                 "name": "styles",
@@ -63,7 +58,7 @@ The you can import component on demand, and you don't need to care about importi
 
 ```javascript
 import Vue from 'vue'
-import { Button } from 'qyuan-ui'
+import { Button } from 'qyuan-vur-ui'
 
 Vue.component('y-button', Button)
 ```

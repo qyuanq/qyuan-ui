@@ -1,6 +1,6 @@
 {
   "name": "qyuan-vur-ui",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "another light weight vue.js component library",
   "main": "lib/qyuan-vue-ui.min.js",
   "dependencies": {

@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'LimeUI',
+  title: 'qyuanUI',
   base: '/lime-ui/',
   description: 'another lightweight ui toolkit for Vue.js 2.X',
   port: 8083, 
